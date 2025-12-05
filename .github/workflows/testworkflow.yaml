@@ -1,0 +1,19 @@
+name: Testing main
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - release-v*
+
+
+jobs:
+  publish-artifacts-to-npm:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Print Branch Used
+        run: |
+          echo "Branch used for workflow: ${{ github.ref }}"
+          echo "This is main branch"
