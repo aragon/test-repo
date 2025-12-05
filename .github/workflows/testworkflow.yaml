@@ -4,8 +4,7 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - release-v*
-
+      - branchtest0
 
 jobs:
   publish-artifacts-to-npm:
