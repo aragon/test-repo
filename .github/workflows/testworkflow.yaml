@@ -16,4 +16,4 @@ jobs:
       - name: Print Branch Used
         run: |
           echo "Branch used for workflow: ${{ github.ref }}"
-          echo "This is main any-shit-name"
+          echo "This is branchtest0"
