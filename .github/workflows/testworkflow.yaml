@@ -19,4 +19,3 @@ jobs:
           echo "This is branchtest0"
 
           echo "This is branchtest0 addition"
-          echo "This is release-v0 addition"
