@@ -17,3 +17,4 @@ jobs:
         run: |
           echo "Branch used for workflow: ${{ github.ref }}"
           echo "This is branchtest0"
+          echo "This is release-v0 addition"
