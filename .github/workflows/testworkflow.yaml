@@ -2,7 +2,7 @@ name: Testing main
 
 on:
   pull_request:
-    types: [opened]
+    types: [closed]
     branches:
       - release-v*
 
