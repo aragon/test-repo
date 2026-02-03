@@ -1,4 +1,4 @@
-name = "easy-app"
+name = 'test-repo'
 pages_build_output_dir = "dist"
 
 [build]
