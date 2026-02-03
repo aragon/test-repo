@@ -2,5 +2,8 @@ name = 'test-repo'
 main = "src/index.js"
 compatibility_date = "2026-02-03"
 
+[define]
+BUILD_VAR = "'injected-at-build-time'"
+
 [vars]
 MY_VARIABLE = "hello-from-wrangler"

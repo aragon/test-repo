@@ -16,8 +16,9 @@ export default {
 <body>
   <h1>Cloudflare Worker Test</h1>
   <div class="card">
-    <p><span class="label">Variable (MY_VARIABLE):</span> <span class="value">${env.MY_VARIABLE ?? "not set"}</span></p>
-    <p><span class="label">Secret (MY_SECRET):</span> <span class="value">${env.MY_SECRET ?? "not set"}</span></p>
+    <p><span class="label">Build-time var (BUILD_VAR):</span> <span class="value">${typeof BUILD_VAR !== "undefined" ? BUILD_VAR : "not set"}</span></p>
+    <p><span class="label">Runtime var (MY_VARIABLE):</span> <span class="value">${env.MY_VARIABLE ?? "not set"}</span></p>
+    <p><span class="label">Runtime secret (MY_SECRET):</span> <span class="value">${env.MY_SECRET ?? "not set"}</span></p>
   </div>
 </body>
 </html>`;
