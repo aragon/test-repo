@@ -1,6 +1,6 @@
 name = 'test-repo'
 main = "src/index.js"
-
+compatibility_date = "2026-02-03"
 
 [vars]
 MY_VARIABLE = "hello-from-wrangler"
