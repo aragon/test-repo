@@ -1,4 +1,4 @@
-name = "easy-app"
+name = 'test-repo'
 main = "src/index.js"
 
 
