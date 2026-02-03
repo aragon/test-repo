@@ -1,5 +1,6 @@
 name = "easy-app"
 main = "src/index.js"
 
+
 [vars]
 MY_VARIABLE = "hello-from-wrangler"
