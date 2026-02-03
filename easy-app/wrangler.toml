@@ -1,8 +1,5 @@
 name = "easy-app"
-pages_build_output_dir = "dist"
-
-[build]
-command = "sh build.sh"
+main = "src/index.js"
 
 [vars]
 MY_VARIABLE = "hello-from-wrangler"
