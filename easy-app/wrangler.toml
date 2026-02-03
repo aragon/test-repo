@@ -7,3 +7,4 @@ BUILD_VAR = "'injected-at-build-time'"
 
 [vars]
 MY_VARIABLE = "hello-from-wrangler"
+BUILD_VAR = "'injected-at-runtime-time'"
