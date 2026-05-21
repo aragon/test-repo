@@ -4,7 +4,8 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - branchtest0
+      - notreleasebranch
+
 
 jobs:
   publish-artifacts-to-npm:
@@ -15,6 +16,4 @@ jobs:
       - name: Print Branch Used
         run: |
           echo "Branch used for workflow: ${{ github.ref }}"
-          echo "This is branchtest0"
-
-          echo "This is branchtest0 addition"
+          echo "This is main branch"
